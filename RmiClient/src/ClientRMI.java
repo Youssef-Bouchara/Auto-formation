@@ -8,7 +8,7 @@ import org.sid.rmi.BanqueRmiRemote;
 public class ClientRMI {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		try 
 		{
@@ -19,7 +19,7 @@ public class ClientRMI {
 			proxy.saveCompte(new CompteEpargne("CE2",99999,new Date(), 5.5));
 		} 
 		catch (Exception e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	}
